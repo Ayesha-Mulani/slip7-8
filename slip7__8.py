@@ -1,4 +1,3 @@
-# Import necessary libraries
 import numpy as np                      # For numerical operations
 from sklearn.linear_model import LinearRegression  # For linear regression model
 from sklearn.metrics import mean_absolute_error, r2_score  # For performance metrics
@@ -26,4 +25,4 @@ r2 = r2_score(y, y_pred)               # Calculate R² score
 print(f'Estimated coefficient b0 (intercept): {b0}')  # Output b0
 print(f'Estimated coefficient b1 (slope): {b1}')       # Output b1
 print(f'Mean Absolute Error (MAE): {mae}')              # Output MAE
-print(f'R-squared (R²): {r2}')                          # Output R
+print(f'R-squared (R²): {r2}')                         # Output R²
